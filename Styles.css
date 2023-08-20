@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+    /* color: white; */
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color: black; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 7vh;
+}
+
+.name{
+    font-size: 28px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items-div{
+    padding-right: 20px;
+}
+
+.nav-items li{
+    list-style: none;
+    padding: 15px 15px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.home{
+    background-color: black;
+}
+
+.home-left{
+    width: 20vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25vh;
+    padding-left: 5vh;
+    row-gap: 20px;
+}
+
+.home-left-icon{
+    height: 50px;
+    width: 50px;
+}
+
