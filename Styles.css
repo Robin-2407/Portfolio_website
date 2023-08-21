@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arvo', serif;
-    /* color: white; */
+    color: white;
+    background-color: black;
 }
 
 #wrapper{
@@ -27,10 +28,11 @@
 .name{
     font-size: 28px;
     font-family: 'Bebas Neue', sans-serif;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 1.2rem;
     font-weight: 700;
     letter-spacing: 1.5px;
+    color: rgb(210, 44, 89);
 }
 
 .nav-items{
@@ -43,7 +45,9 @@
 
 .nav-items li{
     list-style: none;
-    padding: 15px 15px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav-items li a{
@@ -53,8 +57,19 @@
     font-weight: 400;
 }
 
+.divider{
+    border: 0;
+    background: white;
+    height: 0.8px;
+    opacity: 0.2;
+    margin: 15px 20px;
+}
+
 .home{
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
 .home-left{
@@ -62,8 +77,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 25vh;
-    padding-left: 5vh;
+    justify-content: center;
+    align-items: center;
     row-gap: 20px;
 }
 
@@ -72,3 +87,64 @@
     width: 50px;
 }
 
+.home-middle{
+    width: 50%;
+    /* padding-top: 10rem;
+    padding-left: 10px; */
+    line-height: 1.4;
+    margin: 12rem 2rem;
+}
+
+.home-middle-heading{
+    font-size: 4rem;
+}
+
+.home-middle-subheading{
+    font-size: 2rem;
+    padding-left: 2px;
+}
+
+.role{
+    color: rgb(210, 44, 89);
+    font-weight: 700;
+}
+
+.home-middle-description{
+    text-align: left;
+    margin: 10px 50px 10px 0px;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-1 i{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn-1{
+    margin: 10px 10px;
+    padding: 1.1rem 2.2rem;
+    box-shadow: inset 2px 2px 2px white, inset -2px -2px 2px white;
+}
+
+.btn-1:hover{
+    box-shadow: 2px 2px 2px white;
+}
+
+.profile-img{
+    position: absolute;
+    top: 1.5rem;
+    right: 6rem;
+    height: 80%;
+    width: 34%;
+    opacity: 0.3;
+    scale: 1.2;
+}
+
+.home-right{
+}

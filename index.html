@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS Stylesheet -->
@@ -29,6 +30,7 @@
                 </div>
             </nav>
         </header>
+        <hr class="divider">
 
         <main>
             <section class="home">
@@ -45,11 +47,30 @@
                 </div>
 
                 <div class="home-middle">
+                    <div class="home-middle-heading">Hi, I am Robin.</div>
+                    <div class="home-middle-subheading">I am a <span class="role"></span></div>
+                    <p class="home-middle-description">Electronics engineer with a dual passion: circuitry and code. Proficient in web development and skilled in JAVA DSA. Blending creativity and logic to engineer solutions that span the digital and physical realms</p>
+                    <div class="home-btn">
+                    <button class="btn-1"><a href="#contactme">Contact Me</a><i class="uil uil-message"></i></button>  
+                    <button class="btn-1"><a href="./Assets/Robin_Sukhdeve_Resume (2).pdf" download>Resume</a><i class="uil uil-download-alt"></i>
+                    </button>  
+                    </div>
                     
                 </div>
 
                 <div class="home-right">
+                    <img src="./Assets/images/IMG_7986-1-removebg.jpg" alt="profile images" class="profile-img">
                 </div>
+
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed('.role', {
+                      strings: ['Electronics Engineer', 'MERN Stack Developer', 'JAVA Enthusiast', 'Problem Solver'],
+                      typeSpeed: 50,
+                      backspeed: 150,
+                      loop: true,
+                    });
+                  </script>
             </section>
         </main>
     </div>
